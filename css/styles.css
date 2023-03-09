@@ -17,25 +17,18 @@ body {
 /*логотип*/
 
 .logo-footer {
-  text-decoration: none;
-}
-
-.logo__partFirst {
   color: var(--accent-color);
+  text-decoration: none;
   font-family: Raleway, sans-serif;
   letter-spacing: 0.03em;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
+  text-transform: capitalize;
 }
 
 .logo__partSecond {
   color: var(--primart-text-color);
-  font-family: Raleway, sans-serif;
-  letter-spacing: 0.03em;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.16;
 }
 
 /*навигация*/
