@@ -17,7 +17,7 @@
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   background-color: #e5e5e5;
   color: var(--slate-color);
@@ -238,15 +238,47 @@ header {
 
 /*portfolio*/
 
+/*button*/
+
 .button-list {
   list-style: none;
 }
 
-.button-list-kind {
-  font-weight: 500;
+.button-kind {
+  cursor: pointer;
+  font-weight: var(--font-weight-h);
+  font-size: 16px;
+  line-height: var(--line-height-p);
+  text-align: center;
+  letter-spacing: var(--letter-spacing-h);
+  background-color: var(--ocean-color);
+  color: var(--white-color);
+}
+
+.button-kind:hover,
+.button-kind:focus {
+  background-color: var(--iris-color);
+  color: var(--white-color);
+}
+
+/*image*/
+
+.cards-set {
+  list-style: none;
+}
+
+.cards-set-title {
+  font-weight: var(--font-weight-h);
+  font-size: var(--font-size-h);
+  line-height: 1.2;
+  letter-spacing: var(--letter-spacing-p);
+  color: var(--navy-blue-color);
+}
+
+.card-sphere {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: var(--white-color);
+  letter-spacing: var(--letter-spacing-p);
+  color: var(--slate-color);
 }
