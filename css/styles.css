@@ -100,6 +100,7 @@ header {
 }
 
 .hero-title {
+  text-align: center;
   font-weight: var(--font-weight-hh);
   font-size: 56px;
   line-height: 1.07;
@@ -153,6 +154,7 @@ header {
 }
 
 .h-doing {
+  text-align: center;
   font-weight: var(--font-weight-hh);
   font-size: var(--font-size-hh);
   line-height: 1.11;
@@ -168,6 +170,7 @@ header {
 }
 
 .team-title {
+  text-align: center;
   font-weight: var(--font-weight-hh);
   font-size: var(--font-size-hh);
   line-height: 1.11;
