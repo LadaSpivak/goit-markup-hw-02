@@ -75,7 +75,6 @@ header {
 }
 
 .contact-item {
-  text-decoration: none;
   font-style: normal;
   font-weight: var(--font-weight-h);
   font-size: 16px;
@@ -204,11 +203,7 @@ header {
 .footer {
   background-color: var(--navy-blue-color);
 }
-.footer-bottom {
-  text-decoration: none;
-}
 
-.web-botton,
 .studio-botton {
   font-family: "Raleway";
   font-weight: 800;
@@ -216,13 +211,6 @@ header {
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-.web-botton {
-  color: var(--iris-color);
-}
-
-.studio-botton {
   color: var(--cloud-color);
 }
 
@@ -242,19 +230,20 @@ header {
 }
 
 .button-kind {
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   font-weight: var(--font-weight-h);
   font-size: 16px;
   line-height: var(--line-height-p);
   text-align: center;
   letter-spacing: var(--letter-spacing-h);
-  background-color: var(--ocean-color);
-  color: var(--white-color);
+  background-color: var(--cloud-color);
+  color: var(--iris-color);
 }
 
 .button-kind:hover,
 .button-kind:focus {
-  background-color: var(--iris-color);
+  background-color: var(--ocean-color);
   color: var(--white-color);
 }
 
