@@ -105,7 +105,6 @@ header {
   font-weight: var(--font-weight-hh);
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: var(--letter-spacing-p);
   color: var(--white-color);
 }
@@ -159,7 +158,6 @@ header {
   font-weight: var(--font-weight-hh);
   font-size: var(--font-size-hh);
   line-height: 1.11;
-  text-align: center;
   letter-spacing: var(--letter-spacing-p);
   text-transform: capitalize;
   color: var(--navy-blue-color);
@@ -175,7 +173,6 @@ header {
   font-weight: var(--font-weight-hh);
   font-size: var(--font-size-hh);
   line-height: 1.11;
-  text-align: center;
   letter-spacing: var(--letter-spacing-p);
   text-transform: capitalize;
   color: var(--navy-blue-color);
@@ -189,7 +186,6 @@ header {
   font-weight: var(--font-weight-h);
   font-size: var(--font-size-h);
   line-height: 1.2;
-  text-align: center;
   letter-spacing: var(--letter-spacing-p);
   color: var(--navy-blue-color);
 }
@@ -198,7 +194,7 @@ header {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
+
   letter-spacing: var(--letter-spacing-p);
   color: var(--slate-color);
 }
@@ -238,7 +234,7 @@ header {
 
 /*portfolio*/
 
-/*button*/
+/*filtres*/
 
 .button-list {
   list-style: none;
