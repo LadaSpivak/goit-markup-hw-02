@@ -34,11 +34,17 @@ header {
 
 /*логотип*/
 
-.logo-top {
+.logo-top-link {
   text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris-color);
 }
 
-.web-top,
 .studio-top {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -46,13 +52,6 @@ header {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-.web-top {
-  color: var(--iris-color);
-}
-
-.studio-top {
   color: var(--navy-blue-color);
 }
 
@@ -72,7 +71,7 @@ header {
   font-style: normal;
 }
 
-.contact-item-list {
+.contact-item-link {
   text-decoration: none;
   font-style: normal;
   font-weight: var(--font-weight-h);
@@ -84,12 +83,12 @@ header {
 
 .nav-item:focus,
 .nav-item:hover,
-.contact-item-list:focus,
-.contact-item-list:hover {
+.contact-item-link:focus,
+.contact-item-link:hover {
   color: var(--ocean-color);
 }
 
-.contact-item {
+.contact-item-link {
   text-decoration: none;
 }
 
