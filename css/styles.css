@@ -32,11 +32,12 @@ header {
   background-color: var(--white-color);
 }
 
-/*логотип*/
-
+.link,
 .link {
   text-decoration: none;
 }
+
+/*логотип*/
 
 .logo-top {
   font-family: "Raleway", sans-serif;
@@ -61,7 +62,6 @@ header {
 /* navbar */
 
 .nav-item {
-  text-decoration: none;
   font-style: normal;
   font-weight: var(--font-weight-h);
   line-height: var(--line-height-p);
@@ -74,25 +74,21 @@ header {
   font-style: normal;
 }
 
-.contact-item-link {
+.contact-item {
   text-decoration: none;
   font-style: normal;
   font-weight: var(--font-weight-h);
   font-size: 16px;
-  line-height: var(--line-height-h);
+  line-height: var(--line-height-p);
   letter-spacing: var(--letter-spacing-p);
-  color: var(--navy-blue-color);
+  color: var(--slate-color);
 }
 
 .nav-item:focus,
 .nav-item:hover,
-.contact-item-link:focus,
-.contact-item-link:hover {
+.contact-item:focus,
+.contact-item:hover {
   color: var(--ocean-color);
-}
-
-.contact-item-link {
-  text-decoration: none;
 }
 
 /* main */
